@@ -1,0 +1,16 @@
+Overall context:
+- Follow guidelines in @CLAUDE.md
+- Read @labs/instructions.md, @labs/sensor_aggregator.py and @labs/async_bonus.py
+
+Work plan and tasks
+- Implement method group_sensor_readings(readings) in @labs/sensor_aggregator.py as directed in the comments. Implement a separate test including test data. Save the implemented python implementation and test in the solution directory in a directory called lab1.
+- implement method process_sensor_streams(streams) in @labs/async_bonus.py as directed in the comments. Implement a separate test including test data.  Save the implemented python implementation and test in the solution directory in a directory called lab2.
+- Take into account the technical notes below
+- Compare the performance of the implementation of lab1 and lab2 and suggest improvements: save obesrvations and recommendations in a file called quick_analysis.md.
+
+
+Technical notes:
+- Make the stable threshold (is_stable) configurable so that the value can be changed easily and the code runs without having to update it.
+- Sort temperature readings chronologicaly using start_time
+- Take into account volume and velocity of incoming data to output data in real time: apply patterns to back off, retry or batch input to balance processing and performance.
+

@@ -1,0 +1,14 @@
+
+*.bak
+.coverage
+.venv
+.env
+.DS_Store
+
+# Python #
+*.py[cod]
+*$py.class
+
+# Anthropic
+# CLAUDE.md
+
