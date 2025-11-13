@@ -22,7 +22,8 @@
 
 You're working with real-time sensor data from IoT devices. Your task is to write a function that groups consecutive sensor readings by device and detects when readings are stable (within a threshold).
 
-[! IMPORTANT] "Consecutive" means consecutive in the input list order. When the `device_id` changes, start a new group.
+> [! IMPORTANT] 
+> "Consecutive" means consecutive in the input list order. When the `device_id` changes, start a new group.
 
 **Input Format**
 
