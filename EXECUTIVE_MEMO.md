@@ -2,8 +2,11 @@
 ## Sensor Aggregation Labs: Implementation & Performance Analysis
 
 **TO:** Executive Technical Leadership
+
 **FROM:** Engineering Team
+
 **DATE:** November 13, 2025
+
 **RE:** Lab1/Lab2 Implementation Results & Production Recommendations
 
 ---
