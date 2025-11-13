@@ -38,7 +38,7 @@ The input is sorted by timestamp.
 
 **Example Input**
 
-``` python
+``` json
 readings = [
     {"timestamp": 1698000000, "device_id": "sensor_1", "value": 23.5},
     {"timestamp": 1698000005, "device_id": "sensor_1", "value": 23.7},
@@ -60,7 +60,7 @@ Group consecutive readings from the same device (in input list order). For each 
 - End timestamp (last reading in group)
 - Whether the readings are "stable" (all temperature values within ±1.0 degrees of each other)
 
-``` python
+``` json
 [
     {
         "device_id": "sensor_1",
